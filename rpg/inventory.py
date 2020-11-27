@@ -12,5 +12,4 @@ class Inventory:
         return item in self.slots
 
     def __iter__(self):
-        for item in self.slots:
-            yield from self.slots
+        yield from self.slots
