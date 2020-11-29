@@ -1,12 +1,9 @@
+import math
 
-first_name = input("What is your name? ")
-print("hello,", first_name)
-if first_name == 'Begana':
-    print(first_name, "is learning Python.")
-else:
-    age = int(input("how old are you? "))
-    if age <= 6:
-        print("wow, you are {}! if you are confident with your reading already, you should learn Python.".format(age))
-    else:
-        print("you should totally learn Python, {}!".format(first_name))
-    
+def split_check(total, people):
+    return math.ceil( total / people )
+
+total_due = float(input("what is the total? $"))
+number_of_people = int(input("how many people are you? "))
+amount_due = split_check(total_due, number_of_people)
+print("each person owes ${}".format(amount_due))
