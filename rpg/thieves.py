@@ -1,6 +1,6 @@
 import random
 
-from attributes import Sneaky, Agile
+from attribute import Sneaky, Agile
 from characters import Character
 
 
