@@ -74,4 +74,4 @@ def print_them(name, job, topic):
     print(job)
     print(topic)
     
-print_them(**teacher)
+print_them(**teacher) #print out values
