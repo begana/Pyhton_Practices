@@ -9,3 +9,4 @@ class SortedInventory(Inventory):
     def add_items(self, item):
         super().add_items(item)
         self.slots.sort()
+        print(self.slots)
