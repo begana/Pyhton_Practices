@@ -35,6 +35,9 @@ class Die:
     def __radd__(self, other):
         return int(self) + other
     
+    def __repr__(self):
+        return str(self.value)
+    
 class D6(Die):
     def __init__(self):
         super().__init__(sides=6, value=0)
