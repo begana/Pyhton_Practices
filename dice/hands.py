@@ -13,7 +13,3 @@ class YatzyHands(Hands):
     def __init__(self, *args, **kwargs):
         super().__init__(size=5, die_class=D6, *args, **kwargs)
         
-        
-        
-d1 = YatzyHands()
-print(d1)
